@@ -51,8 +51,9 @@ class Code1
             System.out.println(search(head, node) ? "1" : "0");
         }
     }
-
-		public static boolean search(Node head,int x)
+	
+    //Here it is.
+      public static boolean search(Node head,int x)
 		{
 			//Empty LinkedList
 			if(head==null)
